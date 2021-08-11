@@ -24,5 +24,5 @@ jobs:
           -Dsonar.organization=Ryan1997
           -Dsonar.projectKey=Ryan1997_Test
       env:
-        GITHUB_TOKEN: ${{ secrets.sonarGitToken }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

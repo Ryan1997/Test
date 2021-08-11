@@ -19,7 +19,7 @@ jobs:
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       with:
-        projectBaseDir: "C:/Users/Ryan/Desktop/Demo/JokesWebApp/JokesWebApp/wwwroot/lib"
+        projectBaseDir: "../../JokesWebApp/wwwroot/lib"
       env:
         GITHUB_TOKEN: ${{ secrets.sonarGitToken }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

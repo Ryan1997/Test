@@ -21,7 +21,7 @@ jobs:
       with:
         projectBaseDir: "/home/runner/work/Test/Test/JokesWebApp/wwwroot/lib"
         args: >
-          -Dsonar.organization=Ryan1997
+          -Dsonar.organization=ryan1997
           -Dsonar.projectKey=Ryan1997_Test
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
